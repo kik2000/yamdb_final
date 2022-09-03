@@ -7,7 +7,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: ezhikoff/yamdb_final:latest
+    image: kik2000/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/api_yamdb/static/
