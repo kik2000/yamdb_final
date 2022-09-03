@@ -42,7 +42,7 @@ jobs:
         with:
           file: api_yamdb/Dockerfile
           push: true
-          tags: ezhikoff/yamdb_final:latest
+          tags: kik2000/yamdb_final:latest
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub

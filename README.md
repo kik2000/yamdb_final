@@ -1,5 +1,5 @@
 # api_yamdb
-
+![example workflow](https://github.com/kik2000/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 ## О проекте
 
 Данный проект является учебным.
