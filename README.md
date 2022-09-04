@@ -76,12 +76,10 @@ sudo apt install \
   ca-certificates \
   curl \
   gnupg-agent \
-  software-properties-common -y 
-
+  -y software-properties-common  
+```
 - добавьте ключ gpg
-
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
 ```
 - добавьте репозиторий Docker в пакеты
 ```commandline
@@ -133,7 +131,7 @@ docker-compose exec web python manage.py collectstatic --no-input
 ```
 8. Работоспособность приложения можно проверить без развертывания на уже запущенном сервере:
 
-http://178.154.195.243/admin
+http://158.160.5.96/admin
 
 
 
